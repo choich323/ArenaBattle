@@ -13,6 +13,10 @@ AFountain::AFountain()
 	Water = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("WATER"));
 	Light = CreateDefaultSubobject<UPointLightComponent>(TEXT("Light"));
 	Splash = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("SPLASH"));
+	Movement = CreateDefaultSubobject<URotatingMovementComponent>(TEXT("MOVEMENT"));
+
+	RotateSpeed = 30.0f;
+	Movement->RotationRate = FRotator(0.0f, RotateSpeed, 0.0f);
 
 	RootComponent = Body;
 	Water->SetupAttachment(Body);
@@ -47,13 +51,29 @@ AFountain::AFountain()
 void AFountain::BeginPlay()
 {
 	Super::BeginPlay();
-	
+	// 시작시 오브젝트 정보 출력, 보통은 Warning대신 Log 사용
+//	UE_LOG(ArenaBattle, Warning, TEXT("Actor Name : %s, ID : %d, Location X : %.3f"), *GetName(), ID, GetActorLocation().X); 
+	//ABLOG_S(Warning);
+	//ABLOG(Warning, TEXT("Actor Name : %s, ID : %d, Location X : %.3f"), *GetName(), ID, GetActorLocation().X);
+
 }
 
 // Called every frame
 void AFountain::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
+	//AddActorLocalRotation(FRotator(0.0f, RotateSpeed * DeltaTime, 0.0f));
+	// DeltaTime은 GetWorld()->GetDeltaSeconds()함수를 통해 가져올 수 있다.
+	// 사용자가 게임 중지한 시간을 제외한 경과 시간: GetWorld()->GetUnpausedTimeSeconds()
+	// 실제 시간대로 경과를 원하면 GetWorld()->GetRealTimeSeconds()를 사용
 }
 
+void AFountain::EndPlay(const EEndPlayReason::Type EndPlayReason) {
+	Super::EndPlay(EndPlayReason);
+	//ABLOG_S(Warning);
+}
+
+void AFountain::PostInitializeComponents() {
+	Super::PostInitializeComponents();
+	//ABLOG_S(Warning);
+}
