@@ -17,4 +17,7 @@ class ARENABATTLE_API AABPlayerController : public APlayerController
 public:
 	virtual void PostInitializeComponents() override;
 	//virtual void Possess(APawn* aPawn) override; 최신 버전이 되면서 막힌듯
+
+protected:
+	virtual void BeginPlay() override;
 };
