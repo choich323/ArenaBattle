@@ -2,12 +2,12 @@
 
 
 #include "ABGameMode.h"
-#include "ABPawn.h"
+#include "ABCharacter.h"
 #include "ABPlayerController.h"
 
 AABGameMode::AABGameMode::AABGameMode()  // 접두사
 {
-	DefaultPawnClass = AABPawn::StaticClass(); // 기본 폰 클래스 설정
+	DefaultPawnClass = AABCharacter::StaticClass(); // 기본 폰 클래스 설정
 	PlayerControllerClass = AABPlayerController::StaticClass();
 }
 
