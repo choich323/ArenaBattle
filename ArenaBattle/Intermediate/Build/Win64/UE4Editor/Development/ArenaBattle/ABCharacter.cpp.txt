@@ -197,3 +197,5 @@ E:\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStatic
 E:\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
 E:\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
 E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Inc\ArenaBattle\ABCharacter.generated.h
+E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Source\ArenaBattle\ABAnimInstance.h
+E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Inc\ArenaBattle\ABAnimInstance.generated.h
