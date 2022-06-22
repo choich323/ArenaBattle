@@ -47,6 +47,15 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	bool CanSetWeapon(); // 현재 무기가 없는지, 즉 무기를 얻었을 때 착용할 수 있는지 상태 확인
+	void SetWeapon(class AABWeapon* NewWeapon); // 무기 장착 로직
+
+	UPROPERTY(VisibleAnywhere, Category = Weapon)
+	class AABWeapon* CurrentWeapon;
+
+	//UPROPERTY(VisibleAnywhere, Category = Weapon) // 무기 메쉬를 직접 설정할 때
+	//USkeletalMeshComponent* Weapon;
+
 	UPROPERTY(VisibleAnywhere, Category = Camera)
 	USpringArmComponent* SpringArm;
 

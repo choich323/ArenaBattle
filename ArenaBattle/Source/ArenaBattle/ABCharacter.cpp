@@ -3,6 +3,7 @@
 
 #include "ABCharacter.h"
 #include "ABAnimInstance.h"
+#include "ABWeapon.h"
 #include "DrawDebugHelpers.h"
 
 // Sets default values
@@ -31,7 +32,18 @@ AABCharacter::AABCharacter()
 	if (WARRIOR_ANIM.Succeeded()) {
 		GetMesh()->SetAnimInstanceClass(WARRIOR_ANIM.Class);
 	}
+	/*
+	FName WeaponSocket(TEXT("hand_rSocket")); // TEXT의 이름을 가진 소켓의 정보를 가져옴
+	if (GetMesh()->DoesSocketExist(WeaponSocket)) { // 그 소켓이 실재하면,
+		Weapon = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("WEAPON")); // 초기화
+		static ConstructorHelpers::FObjectFinder<USkeletalMesh> SK_WEAPON(TEXT("/Game/InfinityBladeWeapons/Weapons/Blade/Swords/Blade_BlackKnight/SK_Blade_BlackKnight.SK_Blade_BlackKnight"));
+		if (SK_WEAPON.Succeeded()) {
+			Weapon->SetSkeletalMesh(SK_WEAPON.Object);
+		}
 
+		Weapon->SetupAttachment(GetMesh(), WeaponSocket); // 웨폰 소켓에 메시를 적용
+	}
+	*/
 	SetControlMode(EControlMode::DIABLO);
 
 	ArmLengthSpeed = 3.0f;
@@ -53,7 +65,27 @@ AABCharacter::AABCharacter()
 void AABCharacter::BeginPlay()
 {
 	Super::BeginPlay();
-	
+	/* 무기 장착(액터 활용)
+	FName WeaponSocket(TEXT("hand_rSocket"));
+	auto CurWeapon = GetWorld()->SpawnActor<AABWeapon>(FVector::ZeroVector, FRotator::ZeroRotator);
+
+	if (nullptr != CurWeapon) {
+		CurWeapon->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetNotIncludingScale, WeaponSocket);
+	}*/
+}
+
+bool AABCharacter::CanSetWeapon() {
+	return (nullptr == CurrentWeapon);
+}
+
+void AABCharacter::SetWeapon(AABWeapon* NewWeapon)
+{
+	FName WeaponSocket(TEXT("hand_rSocket"));
+	if (nullptr != NewWeapon) { // 새로운 무기를 습득했을때 소켓에 장착
+		NewWeapon->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetNotIncludingScale, WeaponSocket);
+		NewWeapon->SetOwner(this);
+		CurrentWeapon = NewWeapon;
+	}
 }
 
 void AABCharacter::SetControlMode(EControlMode NewControlMode) { // 언리얼에서 기본 제공되는 방식으로 이동과 카메라워크 구현(GTA방식)

@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\ArenaBattle.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{65C346E7-807E-4C24-AA4E-642292CA08F9}</UniqueIdentifier>
+      <UniqueIdentifier>{5CB50C76-1050-440A-A235-3367FC25A85F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ArenaBattle.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{C8279D86-0F56-4D31-8626-7A4E35C43773}</UniqueIdentifier>
+      <UniqueIdentifier>{9464660E-F2E1-4AE5-B451-C5C56D97099F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\ArenaBattle">
-      <UniqueIdentifier>{A38B5D4B-7831-4769-8820-F90A1C473168}</UniqueIdentifier>
+      <UniqueIdentifier>{139D88AC-FC5E-4A1E-933B-69FEEACA0D3B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ArenaBattle\ArenaBattle.Build.cs">
       <Filter>Source\ArenaBattle</Filter>
@@ -59,9 +59,6 @@
     <ClInclude Include="..\..\Source\ArenaBattle\ABGameMode.h">
       <Filter>Source\ArenaBattle</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Source\ArenaBattle\ArenaBattle.h">
-      <Filter>Source\ArenaBattle</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\Source\ArenaBattle\ABPawn.h">
       <Filter>Source\ArenaBattle</Filter>
     </ClInclude>
@@ -77,16 +74,31 @@
     <ClCompile Include="..\..\Source\ArenaBattle\ABGameMode.cpp">
       <Filter>Source\ArenaBattle</Filter>
     </ClCompile>
+    <ClInclude Include="..\..\Source\ArenaBattle\ArenaBattle.h">
+      <Filter>Source\ArenaBattle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ArenaBattle\ABAnimInstance.h">
+      <Filter>Source\ArenaBattle</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ArenaBattle\ABAnimInstance.cpp">
+      <Filter>Source\ArenaBattle</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ArenaBattle\ABWeapon.h">
+      <Filter>Source\ArenaBattle</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ArenaBattle\ABWeapon.cpp">
+      <Filter>Source\ArenaBattle</Filter>
+    </ClCompile>
     <ClInclude Include="..\..\Source\ArenaBattle\ABCharacter.h">
       <Filter>Source\ArenaBattle</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\ArenaBattle\ABCharacter.cpp">
       <Filter>Source\ArenaBattle</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\ArenaBattle\ABAnimInstance.h">
+    <ClInclude Include="..\..\Source\ArenaBattle\ABItemBox.h">
       <Filter>Source\ArenaBattle</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\ArenaBattle\ABAnimInstance.cpp">
+    <ClCompile Include="..\..\Source\ArenaBattle\ABItemBox.cpp">
       <Filter>Source\ArenaBattle</Filter>
     </ClCompile>
   </ItemGroup>
