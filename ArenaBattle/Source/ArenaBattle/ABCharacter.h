@@ -53,6 +53,9 @@ public:
 	UPROPERTY(VisibleAnywhere, Category = Weapon)
 	class AABWeapon* CurrentWeapon;
 
+	UPROPERTY(VisibleAnywhere, Category = Stat)
+	class UABCharacterStatComponent* CharacterStat;
+
 	//UPROPERTY(VisibleAnywhere, Category = Weapon) // 무기 메쉬를 직접 설정할 때
 	//USkeletalMeshComponent* Weapon;
 
@@ -61,6 +64,9 @@ public:
 
 	UPROPERTY(VisibleAnywhere, Category = Camera)
 	UCameraComponent* Camera;
+
+	UPROPERTY(VisibleAnywhere, Category = UI) // ~.Build.cs에서 UMG 모듈을 추가해줘야 사용할 수 있다.(언리얼 모듈은 C#으로 제작되었다)
+	class UWidgetComponent* HPBarWidget;
 
 private:
 	void UpDown(float NewAxisValue);

@@ -1,0 +1,974 @@
+﻿Log file open, 06/23/22 04:53:40
+LogInit: LLM is enabled
+LogInit: LLM CsvWriter: off TraceWriter: off
+LogInit: Display: Running engine for game: ArenaBattle
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.358995
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin XGEController
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin EnvironmentQueryEditor
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PluginUtils
+LogPluginManager: Mounting plugin PropertyAccessNode
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin LuminPlatformFeatures
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MotoSynth
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin AudioSynesthesia
+LogPluginManager: Mounting plugin ChunkDownloader
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin PropertyAccessEditor
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin SteamVR
+LogXGEController: Cleaning working directory: C:/Users/I/AppData/Local/Temp/UnrealXGEWorkingDir/
+LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.26-CL-15973114
+LogInit: Engine Version: 4.26.2-15973114+++UE4+Release-4.26
+LogInit: Compatible Engine Version: 4.26.0-14830424+++UE4+Release-4.26
+LogInit: Net CL: 14830424
+LogInit: OS: Windows 10 (Release 2009) (), CPU: AMD Ryzen 5 4500U with Radeon Graphics         , GPU: AMD Radeon(TM) Graphics
+LogInit: Compiled (64-bit): Apr 12 2021 06:14:10
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.26
+LogInit: Command Line: 
+LogInit: Base Directory: E:/Epic Games/UE_4.26/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 29
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 44
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 43
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 1
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 40
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/Programming_Practice/Unreal/ArenaBattle/ArenaBattle/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2022.06.22-19.53.41:597][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2022.06.22-19.53.41:597][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2022.06.22-19.53.41:597][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/Programming_Practice/Unreal/ArenaBattle/ArenaBattle/Saved/Config/Windows/Engine.ini]
+[2022.06.22-19.53.41:597][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2022.06.22-19.53.41:597][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/Programming_Practice/Unreal/ArenaBattle/ArenaBattle/Saved/Config/Windows/Engine.ini]
+[2022.06.22-19.53.41:597][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/Programming_Practice/Unreal/ArenaBattle/ArenaBattle/Saved/Config/Windows/Engine.ini]
+[2022.06.22-19.53.41:597][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2022.06.22-19.53.41:597][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2022.06.22-19.53.41:597][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2022.06.22-19.53.41:597][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2022.06.22-19.53.41:597][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2022.06.22-19.53.41:597][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2022.06.22-19.53.41:597][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2022.06.22-19.53.41:597][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2022.06.22-19.53.41:597][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2022.06.22-19.53.41:597][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2022.06.22-19.53.41:597][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2022.06.22-19.53.41:597][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2022.06.22-19.53.41:597][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2022.06.22-19.53.41:597][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2022.06.22-19.53.41:597][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/Programming_Practice/Unreal/ArenaBattle/ArenaBattle/Saved/Config/Windows/Engine.ini]
+[2022.06.22-19.53.41:597][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2022.06.22-19.53.41:597][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2022.06.22-19.53.41:597][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2022.06.22-19.53.41:597][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2022.06.22-19.53.41:597][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2022.06.22-19.53.41:597][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2022.06.22-19.53.41:597][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2022.06.22-19.53.41:597][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2022.06.22-19.53.41:597][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2022.06.22-19.53.41:597][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2022.06.22-19.53.41:597][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2022.06.22-19.53.41:597][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2022.06.22-19.53.41:597][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2022.06.22-19.53.41:597][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2022.06.22-19.53.41:597][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/Programming_Practice/Unreal/ArenaBattle/ArenaBattle/Saved/Config/Windows/Engine.ini]
+[2022.06.22-19.53.41:597][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/Programming_Practice/Unreal/ArenaBattle/ArenaBattle/Saved/Config/Windows/Engine.ini]
+[2022.06.22-19.53.41:605][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/Programming_Practice/Unreal/ArenaBattle/ArenaBattle/Saved/Config/Windows/Scalability.ini]
+[2022.06.22-19.53.41:605][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.06.22-19.53.41:605][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.06.22-19.53.41:605][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/Programming_Practice/Unreal/ArenaBattle/ArenaBattle/Saved/Config/Windows/Scalability.ini]
+[2022.06.22-19.53.41:605][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.06.22-19.53.41:605][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/Programming_Practice/Unreal/ArenaBattle/ArenaBattle/Saved/Config/Windows/Scalability.ini]
+[2022.06.22-19.53.41:605][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.06.22-19.53.41:605][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.06.22-19.53.41:605][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.06.22-19.53.41:605][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.06.22-19.53.41:605][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.06.22-19.53.41:605][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.06.22-19.53.41:605][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.06.22-19.53.41:605][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.06.22-19.53.41:605][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.06.22-19.53.41:605][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.06.22-19.53.41:605][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.06.22-19.53.41:605][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.06.22-19.53.41:605][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.06.22-19.53.41:605][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.06.22-19.53.41:605][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.06.22-19.53.41:605][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.06.22-19.53.41:605][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.06.22-19.53.41:605][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.06.22-19.53.41:605][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/Programming_Practice/Unreal/ArenaBattle/ArenaBattle/Saved/Config/Windows/Scalability.ini]
+[2022.06.22-19.53.41:605][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.06.22-19.53.41:605][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/Programming_Practice/Unreal/ArenaBattle/ArenaBattle/Saved/Config/Windows/Scalability.ini]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/Programming_Practice/Unreal/ArenaBattle/ArenaBattle/Saved/Config/Windows/Scalability.ini]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/Programming_Practice/Unreal/ArenaBattle/ArenaBattle/Saved/Config/Windows/Scalability.ini]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [E:/Programming_Practice/Unreal/ArenaBattle/ArenaBattle/Saved/Config/Windows/Scalability.ini]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2022.06.22-19.53.41:606][  0]LogInit: Selected Device Profile: [Windows]
+[2022.06.22-19.53.41:606][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2022.06.22-19.53.41:606][  0]LogHAL: Display: Platform has ~ 16 GB [16505954304 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2022.06.22-19.53.41:606][  0]LogInit: Going up to parent DeviceProfile []
+[2022.06.22-19.53.41:606][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/Programming_Practice/Unreal/ArenaBattle/ArenaBattle/Saved/Config/Windows/Scalability.ini]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/Programming_Practice/Unreal/ArenaBattle/ArenaBattle/Saved/Config/Windows/Scalability.ini]
+[2022.06.22-19.53.41:606][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.06.22-19.53.41:606][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/Programming_Practice/Unreal/ArenaBattle/ArenaBattle/Saved/Config/Windows/Scalability.ini]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/Programming_Practice/Unreal/ArenaBattle/ArenaBattle/Saved/Config/Windows/Scalability.ini]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/Programming_Practice/Unreal/ArenaBattle/ArenaBattle/Saved/Config/Windows/Scalability.ini]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/Programming_Practice/Unreal/ArenaBattle/ArenaBattle/Saved/Config/Windows/Scalability.ini]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/Programming_Practice/Unreal/ArenaBattle/ArenaBattle/Saved/Config/Windows/Scalability.ini]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [E:/Programming_Practice/Unreal/ArenaBattle/ArenaBattle/Saved/Config/Windows/Scalability.ini]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2022.06.22-19.53.41:607][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2022.06.22-19.53.41:614][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2022.06.22-19.53.41:614][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2022.06.22-19.53.41:614][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2022.06.22-19.53.41:614][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/Programming_Practice/Unreal/ArenaBattle/ArenaBattle/Saved/Config/Windows/Engine.ini]
+[2022.06.22-19.53.41:614][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/Programming_Practice/Unreal/ArenaBattle/ArenaBattle/Saved/Config/Windows/Editor.ini]
+[2022.06.22-19.53.41:614][  0]LogInit: Computer: 스위프트3
+[2022.06.22-19.53.41:614][  0]LogInit: User: I
+[2022.06.22-19.53.41:614][  0]LogInit: CPU Page size=4096, Cores=6
+[2022.06.22-19.53.41:614][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2022.06.22-19.53.41:614][  0]LogMemory: Memory total: Physical=15.4GB (16GB approx)
+[2022.06.22-19.53.41:616][  0]LogMemory: Platform Memory Stats for Windows
+[2022.06.22-19.53.41:616][  0]LogMemory: Process Physical Memory: 131.09 MB used, 131.09 MB peak
+[2022.06.22-19.53.41:616][  0]LogMemory: Process Virtual Memory: 108.38 MB used, 108.38 MB peak
+[2022.06.22-19.53.41:616][  0]LogMemory: Physical Memory: 5418.20 MB used,  10323.11 MB free, 15741.30 MB total
+[2022.06.22-19.53.41:616][  0]LogMemory: Virtual Memory: 134206888.00 MB used,  10843.53 MB free, 134217728.00 MB total
+[2022.06.22-19.53.41:618][  0]LogWindows: WindowsPlatformFeatures enabled
+[2022.06.22-19.53.41:667][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2022.06.22-19.53.41:669][  0]LogInit: Using OS detected language (ko-KR).
+[2022.06.22-19.53.41:669][  0]LogInit: Using OS detected locale (ko-KR).
+[2022.06.22-19.53.41:673][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2022.06.22-19.53.41:976][  0]LogInit: Setting process to per monitor DPI aware
+[2022.06.22-19.53.42:009][  0]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2022.06.22-19.53.42:087][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2022.06.22-19.53.42:087][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2022.06.22-19.53.45:355][  0]LogHMD: Failed to initialize OpenVR with code 101
+[2022.06.22-19.53.45:355][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2022.06.22-19.53.45:355][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2022.06.22-19.53.45:355][  0]LogD3D11RHI: D3D11 adapters:
+[2022.06.22-19.53.45:393][  0]LogD3D11RHI:    0. 'AMD Radeon(TM) Graphics' (Feature Level 11_0)
+[2022.06.22-19.53.45:393][  0]LogD3D11RHI:       495/0/7870 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2022.06.22-19.53.45:396][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2022.06.22-19.53.45:396][  0]LogD3D11RHI:       0/0/7870 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2022.06.22-19.53.45:396][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2022.06.22-19.53.45:402][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2022.06.22-19.53.45:402][  0]LogD3D11RHI:     GPU DeviceId: 0x1636 (for the marketing name, search the web for "GPU Device Id")
+[2022.06.22-19.53.45:402][  0]LogWindows: EnumDisplayDevices:
+[2022.06.22-19.53.45:402][  0]LogWindows:    0. 'AMD Radeon(TM) Graphics' (P:1 D:1)
+[2022.06.22-19.53.45:402][  0]LogWindows:    1. 'AMD Radeon(TM) Graphics' (P:0 D:0)
+[2022.06.22-19.53.45:402][  0]LogWindows:    2. 'AMD Radeon(TM) Graphics' (P:0 D:0)
+[2022.06.22-19.53.45:403][  0]LogWindows:    3. 'AMD Radeon(TM) Graphics' (P:0 D:0)
+[2022.06.22-19.53.45:403][  0]LogWindows:    4. 'AMD Radeon(TM) Graphics' (P:0 D:0)
+[2022.06.22-19.53.45:403][  0]LogWindows:    5. 'AMD Radeon(TM) Graphics' (P:0 D:0)
+[2022.06.22-19.53.45:403][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2022.06.22-19.53.45:403][  0]LogD3D11RHI:     Adapter Name: AMD Radeon(TM) Graphics
+[2022.06.22-19.53.45:403][  0]LogD3D11RHI:   Driver Version: Adrenalin 21.10.20 (internal:27.20.21020.3, unified:27.20.21020.3)
+[2022.06.22-19.53.45:403][  0]LogD3D11RHI:      Driver Date: 5-11-2021
+[2022.06.22-19.53.45:403][  0]LogRHI: Texture pool is 5384 MB (70% of 7692 MB)
+[2022.06.22-19.53.45:448][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2022.06.22-19.53.45:448][  0]LogD3D11RHI: Async texture creation enabled
+[2022.06.22-19.53.45:448][  0]LogD3D11RHI: Array index from any shader is supported
+[2022.06.22-19.53.45:461][  0]LogD3D11RHI: GPU Timing Frequency: 100.000000 (Debug: 2 1)
+[2022.06.22-19.53.46:127][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2022.06.22-19.53.46:151][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2022.06.22-19.53.46:151][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2022.06.22-19.53.46:151][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2022.06.22-19.53.46:151][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2022.06.22-19.53.46:151][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2022.06.22-19.53.46:151][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2022.06.22-19.53.46:151][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2022.06.22-19.53.46:151][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2022.06.22-19.53.46:151][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2022.06.22-19.53.46:151][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2022.06.22-19.53.46:181][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2022.06.22-19.53.46:181][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2022.06.22-19.53.46:203][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2022.06.22-19.53.46:213][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2022.06.22-19.53.46:223][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2022.06.22-19.53.46:234][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2022.06.22-19.53.46:242][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2022.06.22-19.53.46:253][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2022.06.22-19.53.46:262][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2022.06.22-19.53.46:290][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2022.06.22-19.53.46:290][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2022.06.22-19.53.46:301][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacNoEditor'
+[2022.06.22-19.53.46:324][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2022.06.22-19.53.46:334][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2022.06.22-19.53.46:346][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2022.06.22-19.53.46:360][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2022.06.22-19.53.46:360][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2022.06.22-19.53.46:371][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2022.06.22-19.53.46:384][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2022.06.22-19.53.46:394][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2022.06.22-19.53.46:406][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2022.06.22-19.53.46:406][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2022.06.22-19.53.46:423][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2022.06.22-19.53.46:550][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2022.06.22-19.53.46:550][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (../../../../../Programming_Practice/Unreal/ArenaBattle/ArenaBattle/Intermediate/Shaders/WorkingDirectory/12648/).
+[2022.06.22-19.53.46:550][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/I/AppData/Local/Temp/UnrealShaderWorkingDir/4B2A74854BEBCD872ACA8DA793E3030B/'.
+[2022.06.22-19.53.46:550][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2022.06.22-19.53.46:550][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2022.06.22-19.53.50:174][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2022.06.22-19.53.50:319][  0]LogDerivedDataCache: Loaded boot cache 0.15s 87MB C:/Users/I/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2022.06.22-19.53.50:320][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/I/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc
+[2022.06.22-19.53.50:320][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Programming_Practice/Unreal/ArenaBattle/ArenaBattle/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2022.06.22-19.53.50:320][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2022.06.22-19.53.50:320][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Programming_Practice/Unreal/ArenaBattle/ArenaBattle/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.06.22-19.53.50:320][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2022.06.22-19.53.50:333][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2022.06.22-19.53.50:334][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.06.22-19.53.50:334][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2022.06.22-19.53.50:344][  0]LogDerivedDataCache: Speed tests for C:/Users/I/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.01 seconds
+[2022.06.22-19.53.50:344][  0]LogDerivedDataCache: Display: Performance to C:/Users/I/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.02ms. RandomReadSpeed=183.08MBs, RandomWriteSpeed=175.41MBs. Assigned SpeedClass 'Local'
+[2022.06.22-19.53.50:345][  0]LogDerivedDataCache: Using Local data cache path C:/Users/I/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2022.06.22-19.53.50:345][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2022.06.22-19.53.50:345][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2022.06.22-19.53.50:388][  0]LogSlate: Using FreeType 2.10.0
+[2022.06.22-19.53.50:399][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.06.22-19.53.50:618][  0]LogAssetRegistry: FAssetRegistry took 0.0027 seconds to start up
+[2022.06.22-19.53.50:838][  0]LogInit: Selected Device Profile: [Windows]
+[2022.06.22-19.53.50:838][  0]LogInit: Active device profile: [00000222AA6F3600][00000222A88292C0 49] Windows
+[2022.06.22-19.53.50:838][  0]LogInit: Profiles: [00000222AA6F3600][00000222A88292C0 49] Windows, [00000222AA6A0C00][00000222A8831440 49] WindowsNoEditor, [00000222AA6F0C00][00000222A88355C0 49] WindowsServer, [00000222AA6A2E00][00000222A882D700 49] WindowsClient, [00000222AA6F2D00][00000222A8839840 49] IOS, [00000222AA6A1500][00000222A883D980 49] iPadAir, [00000222AA6F1400][00000222A8841AC0 49] iPadAir2, [00000222AA624800][00000222A884C0C0 49] IPadPro, [00000222AA624900][00000222A8848100 49] iPadAir3, [00000222AA6F2700][00000222A8850280 49] iPadAir4, [00000222AA627600][00000222A8854400 49] iPadMini2, [00000222AA6F1900][00000222A8858580 49] iPadMini3, [00000222AA625F00][00000222A885C700 49] iPadMini4, [00000222AA6F3900][00000222A8860880 49] iPadMini5, [00000222AA6A0900][00000222A8868B40 49] iPhone6, [00000222AA6A1D00][00000222A8864B80 49] iPodTouch6, [00000222AA61BE00][00000222A8870E40 49] iPhone7, [00000222AA61BF00][00000222A886CE80 49] iPodTouch7, [00000222AA6A0500][00000222A8875000 49] iPhone5S, [00000222AA619100][00000222A8879180 49] iPhone6Plus, [00000222AA6A0300][00000222A887D300 49] iPhone6S, [00000222AA61A800][00000222A8881480 49] iPhone6SPlus, [00000222AA6A3900][00000222A8885600 49] iPhone7Plus, [00000222AA619900][00000222A8845740 49] iPhoneSE, [00000222AA6A3500][00000222A8889880 49] iPhone8, [00000222AA61BA00][00000222A888D9C0 49] iPhone8Plus, [00000222AA6A3100][00000222A8891B00 49] iPhoneX, [00000222AA618E00][00000222A8899C80 49] iPhoneXS, [00000222AA6A2800][00000222A889C140 49] iPhoneXSMax, [00000222AA619400][00000222A88A02C0 49] iPhoneXR, [00000222AA6A0700][00000222A88A4440 49] iPhone11, [00000222AA61A700][00000222A88A85C0 49] iPhone11Pro, [00000222AA6A1F00][00000222A88AC740 49] iPhone11ProMax, [00000222AA619700][00000222A88B08C0 49] iPhoneSE2, [00000222AA6A3E00][00000222A88B4A40 49] iPhone12Mini, [00000222AA619300][00000222A88B8BC0 49] iPhone12, [00000222AA6A3400][00000222A88BCD40 49] iPhone12Pro, [00000222AA61A200][00000222A88C0EC0 49] iPhone12ProMax, [00000222AA6A1200][00000222A88C5040 49] iPadPro105, [00000222AA61AE00][00000222A88C91C0 49] iPadPro129, [00000222AA6A0B00][00000222A88CD340 49] iPadPro97, [00000222AA619D00][00000222A88D14C0 49] iPadPro2_129, [00000222AA6A3200][00000222A88D5640 49] iPad5, [00000222AA61BD00][00000222A88D97C0 49] iPad6, [00000222AA6A0D00][00000222A8895900 49] iPad7, [00000222AA619800][00000222A88DDA40 49] iPad8, [00000222AA6A0E00][00000222A88E1B80 49] iPadPro11, [00000222AA61B300][00000222A88E9D00 49] iPadPro2_11, [00000222AA6A1300][00000222A88EC1C0 49] iPadPro3_129, [00000222AA618700][00000222AA900340 49] iPadPro4_129, [00000222AA6A1A00][00000222AA9044C0 49] AppleTV, [00000222AA619E00][00000222AA908640 49] AppleTV4K, [00000222AA6A2B00][00000222AA90C7C0 49] TVOS, [00000222AA61A400][00000222AA910940 49] Mac, [00000222AA6A1100][00000222AA914AC0 49] MacClient, [00000222AA619200][00000222AA918C40 49] MacNoEditor, [00000222AA6A0800][00000222AA91CDC0 49] MacServer, [00000222AA61B100][00000222AA92AF40 49] Linux, [00000222AA6A3D00][00000222AA92F0C0 49] LinuxAArch64, [00000222AA61AB00][00000222AA933240 49] LinuxNoEditor, [00000222AA6A3700][00000222AA93B3C0 49] LinuxAArch64NoEditor, [00000222AA61AF00][00000222AA93F540 49] LinuxClient, [00000222AA6A0A00][00000222AA9436C0 49] LinuxAArch64Client, [00000222AA626200][00000222AA957840 49] LinuxServer, [00000222AA755000][00000222A88E5980 49] LinuxAArch64Server, [00000222AA626E00][00000222AA95BAC0 49] Android, [00000222AA755500][00000222AA95FC00 49] Android_Low, [00000222AA627C00][00000222AA9660C0 49] Android_Mid, [00000222AA755600][00000222AA96A240 49] Android_High, [00000222AA626F00][00000222AA96E3C0 49] Android_Default, [00000222AA754F00][00000222AA972540 49] Android_Adreno4xx, [00000222AA625B00][00000222AA9766C0 49] Android_Adreno5xx_Low, [00000222AA754100][00000222AA97A840 49] Android_Adreno5xx, [00000222AA624D00][00000222AA97E9C0 49] Android_Adreno6xx, [00000222AA754B00][00000222AA982B40 49] Android_Adreno6xx_Vulkan, [00000222AA626A00][00000222AA986CC0 49] Android_Mali_T6xx, [00000222AA755C00][00000222AA994E40 49] Android_Mali_T7xx, [00000222AA625700][00000222AA998FC0 49] Android_Mali_T8xx, [00000222AA754700][00000222AA99D140 49] Android_Mali_G71, [00000222AA625500][00000222AA9A52C0 49] Android_Mali_G72, [00000222AA755F00][00000222AA9B1440 49] Android_Mali_G72_Vulkan, [00000222AA626600][00000222AA9B95C0 49] Android_Mali_G76, [00000222AA754400][00000222AA9C1740 49] Android_Mali_G76_Vulkan, [00000222AA624300][00000222AA9CD8C0 49] Android_Mali_G77, [00000222AA755700][00000222AA963A00 49] Android_Mali_G77_Vulkan, [00000222AA6A2C00][00000222AA9D5B40 49] Android_Vulkan_SM5, [00000222AA619F00][00000222AA9D9C80 49] Android_PowerVR_G6xxx, [00000222AA6A3F00][00000222AA9DC100 49] Android_PowerVR_GT7xxx, [00000222AA618100][00000222AA9E4280 49] Android_PowerVR_GE8xxx, [00000222AA6A1B00][00000222AA9E8400 49] Android_PowerVR_GM9xxx, [00000222AA61B800][00000222AA9EC580 49] Android_PowerVR_GM9xxx_Vulkan, [00000222AA6A3000][00000222AA9F0700 49] Android_TegraK1, [00000222AA618D00][00000222AA9F4880 49] Android_Unknown_Vulkan, [00000222AA6A0F00][00000222AA9F8A00 49] Lumin, [00000222AA61B600][00000222AA9FCB80 49] Lumin_Desktop, [00000222AA6A3A00][00000222AAA00D00 49] HoloLens, 
+[2022.06.22-19.53.50:916][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2022.06.22-19.53.50:916][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2022.06.22-19.53.50:916][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2022.06.22-19.53.50:916][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2022.06.22-19.53.50:916][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2022.06.22-19.53.51:001][  0]LogNetVersion: ArenaBattle 1.0.0, NetCL: 14830424, EngineNetVer: 16, GameNetVer: 0 (Checksum: 784849392)
+[2022.06.22-19.53.53:379][  0]LogHMD: PokeAHoleMaterial loaded successfully
+[2022.06.22-19.53.53:619][  0]LogPackageLocalizationCache: Processed 22 localized package path(s) for 1 prioritized culture(s) in 0.239074 seconds
+[2022.06.22-19.53.53:625][  0]LogUObjectArray: 16831 objects as part of root set at end of initial load.
+[2022.06.22-19.53.53:625][  0]LogUObjectAllocator: 4209728 out of 0 bytes used by permanent object pool.
+[2022.06.22-19.53.53:625][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2022.06.22-19.53.54:331][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2022.06.22-19.53.54:337][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2022.06.22-19.53.54:594][  0]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.53.54:658][  0]LogLinker: Warning: '{FileName}': 파일을 찾을 수 없습니다. 로드에 실패했습니다.
+[2022.06.22-19.53.54:659][  0]LogLinker: Warning: '{FileName}': 파일을 찾을 수 없습니다. 로드에 실패했습니다.
+[2022.06.22-19.53.54:659][  0]LogUObjectGlobals: Warning: 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C' 오브젝트를 찾는 데 실패했습니다.
+[2022.06.22-19.53.54:802][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2022.06.22-19.53.54:802][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2022.06.22-19.53.54:807][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2022.06.22-19.53.54:811][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2022.06.22-19.53.54:824][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2022.06.22-19.53.54:833][  0]LogUProjectInfo: Found projects:
+[2022.06.22-19.53.55:112][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2022.06.22-19.53.55:144][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.06.22-19.53.55:144][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.06.22-19.53.55:221][  0]LogCollectionManager: Loaded 0 collections in 0.001847 seconds
+[2022.06.22-19.53.55:253][  0]LogFileCache: Scanning file cache for directory 'E:/Programming_Practice/Unreal/ArenaBattle/ArenaBattle/Saved/Collections/' took 0.00s
+[2022.06.22-19.53.55:253][  0]LogFileCache: Scanning file cache for directory 'E:/Programming_Practice/Unreal/ArenaBattle/ArenaBattle/Content/Developers/I/Collections/' took 0.00s
+[2022.06.22-19.53.55:253][  0]LogFileCache: Scanning file cache for directory 'E:/Programming_Practice/Unreal/ArenaBattle/ArenaBattle/Content/Collections/' took 0.00s
+[2022.06.22-19.53.55:253][  0]LogOcInput: OculusInput pre-init called
+[2022.06.22-19.53.55:268][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2022.06.22-19.53.55:269][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2022.06.22-19.53.55:344][  0]LogEngine: Initializing Engine...
+[2022.06.22-19.53.55:346][  0]LogHMD: Failed to initialize OpenVR with code 101
+[2022.06.22-19.53.55:346][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2022.06.22-19.53.55:347][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2022.06.22-19.53.55:447][  0]LogInit: Initializing FReadOnlyCVARCache
+[2022.06.22-19.53.55:463][  0]LogAIModule: Creating AISystem for world Untitled
+[2022.06.22-19.53.55:464][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2022.06.22-19.53.55:471][  0]LogAudio: Display: Audio Device Manager Initialized
+[2022.06.22-19.53.55:471][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2022.06.22-19.53.55:471][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.06.22-19.53.55:471][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.06.22-19.53.55:471][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.06.22-19.53.55:471][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.06.22-19.53.55:471][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.06.22-19.53.55:471][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.06.22-19.53.55:471][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.06.22-19.53.55:471][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.06.22-19.53.55:471][  0]LogAudio: Display: Using built-in audio occlusion.
+[2022.06.22-19.53.55:471][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2022.06.22-19.53.55:489][  0]LogAudioMixer: Display: 0: FrontLeft
+[2022.06.22-19.53.55:489][  0]LogAudioMixer: Display: 1: FrontRight
+[2022.06.22-19.53.56:278][  0]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2022.06.22-19.53.56:281][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.06.22-19.53.56:282][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.06.22-19.53.56:283][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.06.22-19.53.56:283][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.06.22-19.53.56:283][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.06.22-19.53.56:283][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.06.22-19.53.56:285][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.06.22-19.53.56:285][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.06.22-19.53.56:285][  0]LogInit: FAudioDevice initialized.
+[2022.06.22-19.53.56:285][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2022.06.22-19.53.56:285][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2022.06.22-19.53.56:418][  0]LogDerivedDataCache: Saved boot cache 0.13s 87MB C:/Users/I/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2022.06.22-19.53.56:420][  0]LogInit: Texture streaming: Enabled
+[2022.06.22-19.53.56:445][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 4.26.2-15973114+++UE4+Release-4.26
+[2022.06.22-19.53.56:451][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2022.06.22-19.53.56:451][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={ED5EFA13-400F-815E-52EB-EDAE9734892B}
+[2022.06.22-19.53.56:451][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2022.06.22-19.53.56:452][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2022.06.22-19.53.56:552][  0]LogInit: Transaction tracking system initialized
+[2022.06.22-19.53.56:604][  0]BlueprintLog: New page: 에디터 로드
+[2022.06.22-19.53.56:759][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2022.06.22-19.53.56:823][  0]TimingProfiler: Initialize
+[2022.06.22-19.53.56:823][  0]TimingProfiler: OnSessionChanged
+[2022.06.22-19.53.56:823][  0]LoadingProfiler: Initialize
+[2022.06.22-19.53.56:823][  0]LoadingProfiler: OnSessionChanged
+[2022.06.22-19.53.56:823][  0]NetworkingProfiler: Initialize
+[2022.06.22-19.53.56:823][  0]NetworkingProfiler: OnSessionChanged
+[2022.06.22-19.53.56:823][  0]MemoryProfiler: Initialize
+[2022.06.22-19.53.56:823][  0]MemoryProfiler: OnSessionChanged
+[2022.06.22-19.53.57:171][  0]LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
+[2022.06.22-19.53.57:171][  0]LogCook: Display: Mobile HDR setting 1
+[2022.06.22-19.53.57:516][  0]LogFileCache: Scanning file cache for directory 'E:/Programming_Practice/Unreal/ArenaBattle/ArenaBattle/Content/' took 0.03s
+[2022.06.22-19.53.57:690][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2022.06.22-19.53.57:694][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2022.06.22-19.53.57:694][  0]LogUnrealEdMisc: Loading editor; pre map load, took 18.808
+[2022.06.22-19.53.57:694][  0]Cmd: MAP LOAD FILE="../../../../../Programming_Practice/Unreal/ArenaBattle/ArenaBattle/Content/Book/Maps/Step2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.06.22-19.53.57:694][  0]LightingResults: New page: 라이팅 빌드
+[2022.06.22-19.53.57:696][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.06.22-19.53.57:696][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.22-19.53.57:696][  0]MapCheck: New page: 맵 체크
+[2022.06.22-19.53.57:696][  0]LightingResults: New page: 라이팅 빌드
+[2022.06.22-19.53.57:704][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2022.06.22-19.53.57:792][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Step2'.
+[2022.06.22-19.53.57:794][  0]LogAIModule: Creating AISystem for world Step2
+[2022.06.22-19.53.57:800][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.06.22-19.53.57:806][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2022.06.22-19.53.57:806][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.06.22-19.53.57:806][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.141ms.
+[2022.06.22-19.53.57:806][  0]LogFileHelpers: Loading map 'Step2' took 0.112
+[2022.06.22-19.53.57:809][  0]LogUnrealEdMisc: Total Editor Startup Time, took 18.922
+[2022.06.22-19.53.57:961][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.22-19.53.57:967][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.22-19.53.57:973][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.22-19.53.57:979][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.22-19.53.58:005][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0114 seconds. Added 3614 classes and 861 folders.
+[2022.06.22-19.53.58:010][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2022.06.22-19.53.58:032][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2022.06.22-19.53.58:032][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.06.22-19.53.58:032][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2022.06.22-19.53.58:032][  0]LogPakFile: OnPakFileMounted2Time == 0.000012
+[2022.06.22-19.53.58:042][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2022.06.22-19.53.58:042][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.06.22-19.53.58:043][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2022.06.22-19.53.58:043][  0]LogPakFile: OnPakFileMounted2Time == 0.000017
+[2022.06.22-19.53.58:050][  0]LogPakFile: PakFile PrimaryIndexSize=191
+[2022.06.22-19.53.58:050][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.06.22-19.53.58:050][  0]LogPakFile: PakFile FullDirectoryIndexSize=160
+[2022.06.22-19.53.58:050][  0]LogPakFile: OnPakFileMounted2Time == 0.000022
+[2022.06.22-19.53.58:058][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2022.06.22-19.53.58:058][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.06.22-19.53.58:058][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2022.06.22-19.53.58:058][  0]LogPakFile: OnPakFileMounted2Time == 0.000027
+[2022.06.22-19.53.58:067][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2022.06.22-19.53.58:067][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.06.22-19.53.58:067][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2022.06.22-19.53.58:067][  0]LogPakFile: OnPakFileMounted2Time == 0.000033
+[2022.06.22-19.53.58:073][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2022.06.22-19.53.58:073][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.06.22-19.53.58:073][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2022.06.22-19.53.58:073][  0]LogPakFile: OnPakFileMounted2Time == 0.000037
+[2022.06.22-19.53.58:082][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2022.06.22-19.53.58:082][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.06.22-19.53.58:082][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2022.06.22-19.53.58:082][  0]LogPakFile: OnPakFileMounted2Time == 0.000043
+[2022.06.22-19.53.58:090][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2022.06.22-19.53.58:090][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.06.22-19.53.58:090][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2022.06.22-19.53.58:090][  0]LogPakFile: OnPakFileMounted2Time == 0.000048
+[2022.06.22-19.53.58:101][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2022.06.22-19.53.58:101][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.06.22-19.53.58:101][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2022.06.22-19.53.58:101][  0]LogPakFile: OnPakFileMounted2Time == 0.000053
+[2022.06.22-19.53.58:109][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2022.06.22-19.53.58:109][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.06.22-19.53.58:109][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2022.06.22-19.53.58:109][  0]LogPakFile: OnPakFileMounted2Time == 0.000059
+[2022.06.22-19.53.58:115][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2022.06.22-19.53.58:115][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.06.22-19.53.58:115][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2022.06.22-19.53.58:115][  0]LogPakFile: OnPakFileMounted2Time == 0.000066
+[2022.06.22-19.53.58:123][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2022.06.22-19.53.58:123][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.06.22-19.53.58:123][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2022.06.22-19.53.58:123][  0]LogPakFile: OnPakFileMounted2Time == 0.000072
+[2022.06.22-19.53.58:130][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2022.06.22-19.53.58:130][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.06.22-19.53.58:130][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2022.06.22-19.53.58:130][  0]LogPakFile: OnPakFileMounted2Time == 0.000077
+[2022.06.22-19.53.58:136][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2022.06.22-19.53.58:136][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.06.22-19.53.58:137][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2022.06.22-19.53.58:137][  0]LogPakFile: OnPakFileMounted2Time == 0.000082
+[2022.06.22-19.53.58:144][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2022.06.22-19.53.58:144][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.06.22-19.53.58:144][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2022.06.22-19.53.58:144][  0]LogPakFile: OnPakFileMounted2Time == 0.000088
+[2022.06.22-19.53.58:152][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2022.06.22-19.53.58:152][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.06.22-19.53.58:152][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2022.06.22-19.53.58:152][  0]LogPakFile: OnPakFileMounted2Time == 0.000092
+[2022.06.22-19.53.58:165][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2022.06.22-19.53.58:165][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.06.22-19.53.58:165][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2022.06.22-19.53.58:165][  0]LogPakFile: OnPakFileMounted2Time == 0.000097
+[2022.06.22-19.53.58:174][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2022.06.22-19.53.58:174][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.06.22-19.53.58:174][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2022.06.22-19.53.58:174][  0]LogPakFile: OnPakFileMounted2Time == 0.000102
+[2022.06.22-19.53.58:180][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2022.06.22-19.53.58:180][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.06.22-19.53.58:180][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2022.06.22-19.53.58:180][  0]LogPakFile: OnPakFileMounted2Time == 0.000107
+[2022.06.22-19.53.58:191][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2022.06.22-19.53.58:191][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.06.22-19.53.58:191][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2022.06.22-19.53.58:191][  0]LogPakFile: OnPakFileMounted2Time == 0.000112
+[2022.06.22-19.53.58:197][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2022.06.22-19.53.58:197][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.06.22-19.53.58:197][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2022.06.22-19.53.58:197][  0]LogPakFile: OnPakFileMounted2Time == 0.000116
+[2022.06.22-19.53.58:204][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2022.06.22-19.53.58:204][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.06.22-19.53.58:204][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2022.06.22-19.53.58:204][  0]LogPakFile: OnPakFileMounted2Time == 0.000121
+[2022.06.22-19.53.58:211][  0]LogPakFile: PakFile PrimaryIndexSize=186
+[2022.06.22-19.53.58:211][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.06.22-19.53.58:211][  0]LogPakFile: PakFile FullDirectoryIndexSize=146
+[2022.06.22-19.53.58:211][  0]LogPakFile: OnPakFileMounted2Time == 0.000126
+[2022.06.22-19.53.58:218][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2022.06.22-19.53.58:218][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.06.22-19.53.58:218][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2022.06.22-19.53.58:218][  0]LogPakFile: OnPakFileMounted2Time == 0.000133
+[2022.06.22-19.53.58:226][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2022.06.22-19.53.58:226][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.06.22-19.53.58:226][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2022.06.22-19.53.58:226][  0]LogPakFile: OnPakFileMounted2Time == 0.000138
+[2022.06.22-19.53.58:233][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2022.06.22-19.53.58:233][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.06.22-19.53.58:233][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2022.06.22-19.53.58:233][  0]LogPakFile: OnPakFileMounted2Time == 0.000144
+[2022.06.22-19.53.58:594][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2022.06.22-19.53.58:598][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 2 classes and 0 folders.
+[2022.06.22-19.53.58:692][  0]LogSlate: Took 0.005850 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.06.22-19.53.58:708][  0]LogSlate: Took 0.014751 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2022.06.22-19.53.58:723][  0]LogSlate: Took 0.015111 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2022.06.22-19.53.58:729][  0]LogSlate: Took 0.005491 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.06.22-19.53.58:739][  0]LogSlate: Took 0.006126 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.06.22-19.53.58:920][  0]LogRenderer: Reallocating scene render targets to support 1184x572 Format 10 NumSamples 1 (Frame:1).
+[2022.06.22-19.53.58:979][  0]LogSlate: Took 0.007231 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.06.22-19.53.59:477][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2022.06.22-19.53.59:477][  0]LogInput: Warning: Action Jump uses invalid key OculusGo_Left_Trigger_Click.
+[2022.06.22-19.53.59:477][  0]LogInput: Warning: Action ResetVR uses invalid key OculusGo_Left_Trackpad_Click.
+[2022.06.22-19.53.59:477][  0]LogInput: Warning: Use -RemoveInvalidKeys to remove instances of these keys from the action mapping.
+[2022.06.22-19.53.59:477][  0]LogLoad: (Engine Initialization) Total time: 20.59 seconds
+[2022.06.22-19.53.59:478][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2022.06.22-19.53.59:478][  0]LogInit: First time updating LLM stats...
+[2022.06.22-19.53.59:580][  0]LogAssetRegistry: Asset discovery search completed in 8.9625 seconds
+[2022.06.22-19.53.59:581][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
+[2022.06.22-19.53.59:582][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2022.06.22-19.53.59:605][  1]ArenaBattle: Warning: AABPawn::PostInitializeComponents(64)
+[2022.06.22-19.54.02:529][156]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.06.22-19.54.02:553][156]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.06.22-19.54.02:570][156]PIE: New page: PIE 세션: Step2 (2022. 6. 23. 오후 1:54:02)
+[2022.06.22-19.54.02:579][156]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2022.06.22-19.54.02:581][156]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2022.06.22-19.54.02:583][156]LogPlayLevel: Creating play world package: /Game/Book/Maps/UEDPIE_0_Step2
+[2022.06.22-19.54.02:590][156]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006522s)
+[2022.06.22-19.54.02:591][156]LogAIModule: Creating AISystem for world Step2
+[2022.06.22-19.54.02:592][156]LogPlayLevel: PIE: World Init took: (0.002469s)
+[2022.06.22-19.54.02:593][156]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Book/Maps/Step2.Step2 to /Game/Book/Maps/UEDPIE_0_Step2.Step2 (0.010537s)
+[2022.06.22-19.54.02:602][156]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2022.06.22-19.54.02:606][156]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2022.06.22-19.54.02:606][156]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.06.22-19.54.02:606][156]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.06.22-19.54.02:606][156]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.06.22-19.54.02:606][156]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.06.22-19.54.02:606][156]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.06.22-19.54.02:606][156]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.06.22-19.54.02:606][156]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.06.22-19.54.02:606][156]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.06.22-19.54.02:606][156]LogAudio: Display: Using built-in audio occlusion.
+[2022.06.22-19.54.02:606][156]LogAudioMixer: Display: Initializing audio mixer.
+[2022.06.22-19.54.02:609][156]LogAudioMixer: Display: 0: FrontLeft
+[2022.06.22-19.54.02:609][156]LogAudioMixer: Display: 1: FrontRight
+[2022.06.22-19.54.02:694][156]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2022.06.22-19.54.02:694][156]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.06.22-19.54.02:694][156]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.06.22-19.54.02:694][156]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.06.22-19.54.02:695][156]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.06.22-19.54.02:695][156]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.06.22-19.54.02:695][156]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.06.22-19.54.02:718][156]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.06.22-19.54.02:718][156]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.06.22-19.54.02:718][156]LogInit: FAudioDevice initialized.
+[2022.06.22-19.54.02:718][156]LogAudio: Display: Audio Device (ID: 2) registered with world 'Step2'.
+[2022.06.22-19.54.02:734][156]LogLoad: Game class is 'ABGameMode'
+[2022.06.22-19.54.02:747][156]LogWorld: Bringing World /Game/Book/Maps/UEDPIE_0_Step2.Step2 up for play (max tick rate 60) at 2022.06.23-04.54.02
+[2022.06.22-19.54.02:764][156]LogWorld: Bringing up level for play took: 0.019018
+[2022.06.22-19.54.02:766][156]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2022.06.22-19.54.02:770][156]ArenaBattle: Warning: AABPlayerController::PostInitializeComponents(8)
+[2022.06.22-19.54.02:777][156]LogTemp: Warning: PostLoginBegin
+[2022.06.22-19.54.02:784][156]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 20 classes and 0 folders.
+[2022.06.22-19.54.02:790][156]LogTemp: Warning: PostLoginEnd
+[2022.06.22-19.54.02:795][156]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2022.06.22-19.54.02:796][156]PIE: 서버가 로그인했습니다.
+[2022.06.22-19.54.02:799][156]PIE: 에디터에서 플레이 총 시작 시간 0.253초입니다.
+[2022.06.22-19.54.21:997][270]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.22-19.54.21:998][270]LogWorld: BeginTearingDown for /Game/Book/Maps/UEDPIE_0_Step2
+[2022.06.22-19.54.22:002][270]LogWorld: UWorld::CleanupWorld for Step2, bSessionEnded=true, bCleanupResources=true
+[2022.06.22-19.54.22:004][270]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.22-19.54.22:024][270]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.06.22-19.54.22:026][270]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.22-19.54.22:031][270]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.06.22-19.54.22:035][270]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.06.22-19.54.22:038][270]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.06.22-19.54.22:071][270]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.22-19.54.22:085][270]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2022.06.22-19.54.22:110][271]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2022.06.22-19.54.25:868][483]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2022.06.22-19.54.25:896][483]Candidate modules for hot reload:
+[2022.06.22-19.54.25:896][483]  ArenaBattle
+[2022.06.22-19.54.25:896][483]Launching UnrealBuildTool... [E:/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ArenaBattle,9012 ArenaBattleEditor Win64 Development -Project="E:/Programming_Practice/Unreal/ArenaBattle/ArenaBattle/ArenaBattle.uproject" "E:/Programming_Practice/Unreal/ArenaBattle/ArenaBattle/ArenaBattle.uproject"  -IgnoreJunk]
+[2022.06.22-19.54.25:900][483]Warning: Starting HotReload took  0.0s.
+[2022.06.22-19.54.49:395][542]CompilerResultsLog: New page: 컴파일 - 2022. 6. 23. 오후 1:54:49
+[2022.06.22-19.54.49:395][542]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Programming_Practice\Unreal\ArenaBattle).
+[2022.06.22-19.54.49:395][542]CompilerResultsLog: Invalidating makefile for ArenaBattleEditor (ArenaBattle.Build.cs modified)
+[2022.06.22-19.54.49:395][542]CompilerResultsLog: Parsing headers for ArenaBattleEditor
+[2022.06.22-19.54.49:395][542]CompilerResultsLog:   Running UnrealHeaderTool "E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\ArenaBattle.uproject" "E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Intermediate\Build\Win64\ArenaBattleEditor\Development\ArenaBattleEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\I\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.06.22-19.54.49:395][542]CompilerResultsLog: Reflection code generated for ArenaBattleEditor in 18.364128 seconds
+[2022.06.22-19.54.49:395][542]CompilerResultsLog: Building ArenaBattleEditor...
+[2022.06.22-19.54.49:395][542]CompilerResultsLog: Using Visual Studio 2019 14.32.31329 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.06.22-19.54.49:395][542]CompilerResultsLog: Building 3 actions with 6 processes...
+[2022.06.22-19.54.49:395][542]CompilerResultsLog:   [1/3] UE4Editor-ArenaBattle-9012.lib
+[2022.06.22-19.54.49:395][542]CompilerResultsLog:      E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-9012.lib ???̺귯?? ?? E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-9012.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2022.06.22-19.54.49:396][542]CompilerResultsLog:   [2/3] UE4Editor-ArenaBattle-9012.dll
+[2022.06.22-19.54.49:396][542]CompilerResultsLog:      E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-9012.suppressed.lib ???̺귯?? ?? E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-9012.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2022.06.22-19.54.49:396][542]CompilerResultsLog:   [3/3] ArenaBattleEditor.target
+[2022.06.22-19.54.49:396][542]CompilerResultsLog: Total time in Parallel executor: 1.49 seconds
+[2022.06.22-19.54.49:396][542]CompilerResultsLog: Total execution time: 23.39 seconds
+[2022.06.22-19.54.49:396][542]LogMainFrame: MainFrame: Module compiling took 23.528 seconds
+[2022.06.22-19.54.49:442][542]LogClass: ABCharacterData HotReload.
+[2022.06.22-19.54.49:456][542]LogHotReload: Re-instancing ABCharacter after hot-reload.
+[2022.06.22-19.54.49:469][542]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'ArenaBattle' in 0.0003 seconds. Added 13 classes and 2 folders.
+[2022.06.22-19.54.49:470][542]Display: HotReload successful (5 functions remapped  1 scriptstructs remapped)
+[2022.06.22-19.54.49:527][542]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0101 seconds. Added 3614 classes and 861 folders.
+[2022.06.22-19.54.49:529][542]Display: HotReload took 23.7s.
+[2022.06.22-19.55.00:333][104]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.00:512][108]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.00:684][112]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.00:856][116]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.01:031][120]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.01:202][124]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.01:377][128]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.01:549][132]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.01:721][136]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.01:949][140]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.02:104][144]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.02:293][148]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.02:480][152]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.02:647][156]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.02:820][160]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.02:993][164]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.03:192][168]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.03:366][172]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.03:535][176]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.03:710][180]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.03:884][184]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.04:055][188]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.04:230][192]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.04:403][196]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.04:574][200]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.04:747][204]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.04:923][208]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.05:094][212]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.05:265][216]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.05:437][220]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.05:614][224]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.08:200][362]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.08:327][366]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.08:504][370]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.08:676][374]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.08:849][378]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.09:027][382]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.09:401][398]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.09:576][402]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.09:747][406]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.09:922][410]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.10:095][414]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.10:266][418]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.10:441][422]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.10:613][426]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.10:786][430]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.10:973][435]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.11:147][439]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.11:319][443]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.11:492][447]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.11:665][451]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.11:841][455]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.12:042][459]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.12:232][463]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.12:414][467]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.12:604][471]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.12:784][475]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.12:993][480]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.13:151][484]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.13:324][488]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.13:500][492]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.13:673][496]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.13:845][500]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.14:019][504]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.14:192][508]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.14:365][512]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.14:537][516]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.14:711][520]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.14:885][524]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.15:058][528]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.15:231][532]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.15:405][536]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.15:577][540]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.15:750][544]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.15:924][548]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.16:094][552]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.16:266][556]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.16:438][560]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.36:021][659]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.36:220][663]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.36:394][667]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.36:595][671]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.36:752][675]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.36:925][679]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.37:096][683]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.37:270][687]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.41:356][909]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.41:663][915]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.41:836][919]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
+[2022.06.22-19.55.42:011][923]LogAnimMontage: Warning: [AssetLog] E:\Programming_Practice\Unreal\ArenaBattle\ArenaBattle\Content\Book\Animations\SK_Mannequin_Skeleton_Montage.uasset: Branching Point 'NextAttackCheck' overlaps with 'AttackHitCheck' at time: 0.867493. One of them will not get triggered!
